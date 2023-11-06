@@ -1,0 +1,91 @@
+<html>
+<head>
+<h1><b>OUR SERVICES</b></h1>
+<style>
+	body{
+		  background-image: url('sport2.jpg');
+
+	}
+	table{
+		font-family:arial, sans-serifs;
+		border-collapse:collapse;
+		width:100%;
+	}
+	td,th{
+		border:2px;
+		text-align:right;
+		padding:8px;
+	}
+	tr{
+		background-color:#dddddd;
+	}
+</style>
+
+
+
+
+</head>
+<body>
+<a href = "home.html">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href = "about.html">ABOUT</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href = "contact_us.html">CONTACT_US</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href = "services.html">SERVICES</a>
+
+	<h2><b>SERVICES TABLE</b></h2>
+<table>
+	<tr>
+	    <th>Contact</th>
+	    <th>Country</th>
+	    <th>Working hours</th>
+	    <th>Weekdays</th>
+	</tr>
+	<tr>
+	    <td>+26663089956</td>
+	    <td>Lesotho</td>
+	    <td>07:00-19:00</td>
+	    <td>MON-FRI</td>
+	</tr>
+	<tr>
+	    <td>+26772996268</td>
+	    <td>Botswana</td>
+	    <td>06:00-18:00</td>
+	    <td>TUE-FRI</td>
+	</tr>
+	<tr>
+	    <td>+27839748116</td>
+	    <td>South Africa</td>
+	    <td>09:00-17:00</td>
+	    <td>MON-FRI</td>
+	</tr>
+</table>
+<h2>TAKKIE TOWN</h2>
+	<p>Every journey needs a special pair of shoes so come by TEKKIE TOWN and get yourself a pair for every occation.</p>
+ <header>
+	<h3><b>SPORT</b></h3>
+	<p><u>M2500.00</u></p>
+	<p>No sport outfit looks nothing better than with sports tekkies.</p><img src="sport1.JPG"><img src="sport2.JPG"><img src="sport3.JPG">
+	<a href="default.asp"><img src="sport1.JPG" alt="www.NIKE.com"></a> 
+ </header>
+<section>
+	<nav>
+	     <ul>
+		<li><a href="#">GYM</a></li>
+		<li><a href="#">SPORT</a></li>
+		<li><a href="#">FLEX AND COMFIES</a></li>
+	     </ul>
+	</nav>
+<article>
+	<h1>GYM</h1>
+	<p><u>M1899.90</u></p>
+	<p>A lot happens at the gym so one needs a pair to support the feet through out the workout and many other gym sessions.</p><img src="gym1.JPG"><img 	src="gym2.JPG"><img src="gym3.JPG">
+<a href="default.asp"><img src="gym1.JPG" alt="www.puma.com"></a> 
+</article>
+</section>
+
+<footer>
+	<h4>FLEX AND COMFIES</h4>
+	<p><u>M2350.00</u></p>
+	<p>Nothing some relaxing time in confortable tekkies.It's either your wear to relax or to flex your tekkies</p><img src="flex and comfies1.JPG"><img src="flex and comfies2.JPG"><img src="flex and comfies3.JPG">
+<a href="default.asp"><img src="flex and comfies1.JPG" alt="www.adidas.com"></a> 
+</footer>
+	
+
+</body>
+</html>

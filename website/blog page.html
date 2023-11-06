@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: darkslategray;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Simplify image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Center your content and add padding */
+        .container {
+            max-width: 970px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: white;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li.btn {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        li.btn a {
+            display: block;
+            background-color: #66CCFF;
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        li.btn a:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        /* Main content styles */
+        #gallery-block {
+            float: left;
+            width: 60%;
+        }
+
+        /* Gallery columns */
+        .gallery-column {
+            float: left;
+            width: 33.33%; /* Display content in three columns */
+            padding: 10px;
+        }
+
+        .gallery-column img {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .gallery-column img:hover {
+            transform: scale(1.2); /* Enlarge the image on hover */
+        }
+
+        /* Form styles */
+        .form {
+            float: right;
+            width: 40%;
+        }
+
+        form {
+            padding: 20px;
+            background-color: white;
+        }
+
+        label,
+        input,
+        select,
+        textarea {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: #66CCFF;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="btn"><a href="#">HOME</a></li>
+            <li class="btn"><a href="about.html">ABOUT</a></li>
+            <li class="btn"><a href="contact_us.html">CONTACT_US</a></li>
+            <li class="btn"><a href="services.html">SERVICES</a></li>
+            <li class="btn"><a href="blog_page.html">BLOG PAGE</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div id="gallery-block">
+            <div class="gallery-column">
+                <img src="sport1.JPG" alt="Sport 1">
+                <img src="sport2.JPG" alt="Sport 2">
+                <img src="sport3.JPG" alt="Sport 3">
+            </div>
+
+            <div class="gallery-column">
+                <img src="gym1.JPG" alt="Gym 1">
+                <img src="gym2.JPG" alt="Gym 2">
+                <img src="gym3.JPG" alt="Gym 3">
+            </div>
+
+            <div class="gallery-column">
+                <img src="flex and comfies1.JPG" alt="Flex and Comfies 1">
+                <img src="flex and comfies2.JPG" alt="Flex and Comfies 2">
+                <img src="flex and comfies3.JPG" alt="Flex and Comfies 3">
+            </div>
+        </div>
+
+        <div class="form">
+            <h2>Contact Us</h2>
+            <p>Swing by to take a look at our beauties!</p>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for "lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="Email" placeholder="Your email account..">
+                <label for="cnumber">Contact Number</label>
+                <input type="number" id="cnumber" placeholder="Your contact number..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="lesotho">Lesotho</option>
+                    <option value="botswana">Botswana</option>
+                    <option value="south africa">South Africa</option>
+                </select>
+                <label for="orderl">Order list</label>
+                <textarea id="subject" name="subject" placeholder="List your orders.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

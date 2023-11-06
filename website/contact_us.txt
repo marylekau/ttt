@@ -1,0 +1,101 @@
+<html>
+<head>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    background-image: url('sport2.jpg');
+}
+
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<a href = "home.html">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href = "about.html">ABOUT</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href = "contact_us.html">CONTACT_US</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href = "services.html">SERVICES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href= "blog page.html">BLOG PAGE</a>
+
+<h2><b>Contact us here</b></h2>
+<table>
+  <tr>
+      <th>Contact</th>
+      <th>Country</th>
+      <th>Working hours</th>
+      <th>Weekdays</th>
+  </tr>
+  <tr>
+      <td>+26663089956</td>
+      <td>Lesotho</td>
+      <td>07:00-19:00</td>
+      <td>MON-FRI</td>
+  </tr>
+  <tr>
+      <td>+26772996268</td>
+      <td>Botswana</td>
+      <td>06:00-18:00</td>
+      <td>TUE-FRI</td>
+  </tr>
+  <tr>
+      <td>+27839748116</td>
+      <td>South Africa</td>
+      <td>09:00-17:00</td>
+      <td>MON-FRI</td>
+  </tr>
+</table>
+<h2>email us at:</h2>
+<p><a href="mailto:gettylekau@gmail.com">TEKKITOWN.COM</a></p>
+<P><b>Physical Address:</b>
+<li>
+  <ul>&nbsp;Box 245</ul>
+  <ul>&nbsp;Kingsway Mall</ul>
+  <ul>&nbsp;Maseru 100&nbsp;</ul>
+</li>
+</P>
+<li><a href="https//www.whatsApp.com" target="_blank">
+  <img src=""  width="30%" height="30%">
+
+
+</body>
+</html>
